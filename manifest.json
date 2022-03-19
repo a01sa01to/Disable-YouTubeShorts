@@ -5,7 +5,7 @@
   "description": "A Chrome extension that disables YouTube Short.",
   "author": "Asa",
   "host_permissions": [
-    "*://*.youtube.com/shorts/*"
+    "https://www.youtube.com/shorts/*"
   ],
   "permissions": [
     "declarativeNetRequest"
