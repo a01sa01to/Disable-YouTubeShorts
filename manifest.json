@@ -8,9 +8,6 @@
     "*://*.youtube.com/shorts/*"
   ],
   "permissions": [
-    "webRequest"
-  ],
-  "background": {
-    "service_worker": "main.js"
-  }
+    "declarativeNetRequest"
+  ]
 }
