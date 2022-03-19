@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Disable YouTube Shorts",
+  "version": "1.0",
+  "description": "A Chrome extension that disables YouTube Short.",
+  "author": "Asa",
+  "host_permissions": [
+    "*://*.youtube.com/shorts/*"
+  ],
+  "permissions": [
+    "webRequest"
+  ]
+}
